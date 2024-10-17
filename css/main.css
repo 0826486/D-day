@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('/font/Pretendard-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('/font/Pretendard-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('/font/Pretendard-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: #FFE5E5;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: inherit;        /* 링크의 색상을 부모 요소와 동일하게 */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 34px;
+    font-family: 'Pretendard';
+    font-weight: 800;
+    color: #4A4274;
+}
+
+.menuber-container {
+    display: flex;             
+    justify-content: center;     
+    align-items: center;         
+    gap: 50px;           
+    margin-top: 20px;      
+}
+
+.menuber-container p {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    margin: 0;     
+    padding: 10px 20px; 
+    font-size: 17px;             
+}
