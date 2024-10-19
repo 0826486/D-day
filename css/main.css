@@ -52,3 +52,48 @@ h2 {
     padding: 10px 20px; 
     font-size: 17px;             
 }
+
+.friends-container {
+    width: 594px;
+    height: 154px;
+    margin-top: 58px;
+    margin-left: 120px;
+}
+
+.friends-container img {
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0.65;
+}
+
+.birthday-container {
+    width: 594px;
+    height: 154px;
+    margin-top: 58px;
+    margin-left: 120px;
+}
+
+.birthday-container img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.65;
+}
+
+.love-container {
+    width: 594px;
+    height: 154px;
+    margin-top: 58px;
+    margin-left: 120px;
+}
+
+.love-container img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.65;
+}
